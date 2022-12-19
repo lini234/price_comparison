@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block header %}<link rel="stylesheet" href="/static/main.css">{% endblock %}
+{% block content %}
+    <div class = 'search-container'>
+         <form action="#" method="post">
+             <input type="text" class="search-box" name="srch" placeholder="Search...">
+             <input type="submit" class="search-button" value="submit"/>
+    </form>
+    </div>
+    <div>
+        <p>{{ term }}</p>
+    </div>
+{% endblock %}

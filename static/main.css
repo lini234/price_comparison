@@ -1,0 +1,49 @@
+.search-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+}
+.search-box {
+      width: 500px;
+      height: 40px;
+      padding: 0 10px;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+}
+.search-button {
+      width: 80px;
+      height: 40px;
+      border: none;
+      background-color: #333;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+}
+.product-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 300px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 2px 2px 8px #ccc;
+}
+.product-name {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: bold;
+}
+.product-price {
+      margin-top: 5px;
+      font-size: 16px;
+      color: #333;
+}
+.product-link {
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 1.5;
+      text-align: center;
+}
